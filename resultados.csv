@@ -1,0 +1,57 @@
+timestamp,2026-06-08 13:31:02
+busca,Médicos do paciente
+parametros,cpf=11144477735
+qtd_resultados,2
+resultado,Médico 101 - Dra. Ana Lima
+resultado,Médico 102 - Dr. Bruno Costa
+
+timestamp,2026-06-08 13:31:03
+busca,Consultas passadas do paciente com médico
+parametros,cpf=11144477735;codigo=101
+qtd_resultados,1
+resultado,2026-03-10 14:30 | médico 101 | paciente 11144477735
+
+timestamp,2026-06-08 13:31:04
+busca,Médicos do paciente
+parametros,cpf=11144477735
+qtd_resultados,2
+resultado,Médico 101 - Dra. Ana Lima
+resultado,Médico 102 - Dr. Bruno Costa
+
+timestamp,2026-06-08 13:31:09
+busca,Consultas passadas do paciente com médico
+parametros,cpf=11144477735;codigo=101
+qtd_resultados,1
+resultado,2026-03-10 14:30 | médico 101 | paciente 11144477735
+
+timestamp,2026-06-08 13:31:20
+busca,Consultas futuras do paciente
+parametros,cpf=11144477735
+qtd_resultados,1
+resultado,2026-07-20 08:00 | médico 102 | paciente 11144477735
+
+timestamp,2026-06-08 13:31:21
+busca,Consultas futuras do paciente
+parametros,cpf=11144477735
+qtd_resultados,1
+resultado,2026-07-20 08:00 | médico 102 | paciente 11144477735
+
+timestamp,2026-06-08 13:31:22
+busca,Consultas passadas do paciente com médico
+parametros,cpf=11144477735;codigo=101
+qtd_resultados,1
+resultado,2026-03-10 14:30 | médico 101 | paciente 11144477735
+
+timestamp,2026-06-08 13:31:23
+busca,Consultas futuras do paciente
+parametros,cpf=11144477735
+qtd_resultados,1
+resultado,2026-07-20 08:00 | médico 102 | paciente 11144477735
+
+timestamp,2026-06-08 13:31:51
+busca,Pacientes do médico
+parametros,codigo=101
+qtd_resultados,2
+resultado,Paciente 11144477735 - João Souza
+resultado,Paciente 52998224725 - Maria Oliveira
+
