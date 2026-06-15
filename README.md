@@ -16,13 +16,6 @@ PowerShell:
 
 Resultados das buscas são gravados em resultados.csv.
 
-## Testes
-java -cp out teste.TesteValidadorCpf
-java -cp out teste.TesteConsultorioLookup
-java -cp out teste.TesteConsultorioBuscas
-java -cp out teste.TesteLeitorCsv
-java -cp out teste.TesteRepositorioBinario
-
 ## Estrutura de pacotes
 app/          ProgramaP1, ProgramaP2
 excecoes/     CpfInvalidoException, RegistroNaoEncontradoException
@@ -30,4 +23,3 @@ modelo/       Identificavel, Pessoa (abstract), Medico, Paciente, Consulta, Vali
 negocio/      Consultorio
 persistencia/ LeitorCsv, RepositorioBinario
 ui/           TelaPrincipal, PainelMedico, PainelPaciente, Formatador, RegistradorResultados
-teste/        Assert, TesteValidadorCpf, TesteConsultorioLookup, TesteConsultorioBuscas, TesteLeitorCsv, TesteRepositorioBinario
